@@ -52,6 +52,8 @@ h1 {
     .countdown-container {
         justify-content: center;
         flex-wrap: nowrap;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
     }
     .big-text {
         font-weight: bold;
