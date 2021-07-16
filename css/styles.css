@@ -23,6 +23,10 @@ h1 {
 
 .countdown-container {
     display: flex;
+    /* min-width: 700px; */
+    flex-wrap: wrap;
+    justify-content: center;
+    /* min-width: 805px; */
 }
 
 .big-text {
@@ -30,6 +34,7 @@ h1 {
     font-size: 6rem;
     line-height: 1;
     margin: 1rem 2rem;
+    max-width: 700px;
 }
 
 .countdown-el {
@@ -38,4 +43,24 @@ h1 {
 
 .countdown-el span {
     font-size: 1.3rem;
+}
+
+@media all and (max-width:550px) {
+    h1 {
+        font-size: 35px;
+    }
+    .countdown-container {
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    .big-text {
+        font-weight: bold;
+        font-size: 2rem;
+        line-height: 1;
+        margin: 1rem 2rem;
+        max-width: 700px;
+    }
+    .countdown-el {
+        text-align: center;
+    }
 }
