@@ -65,4 +65,7 @@ h1 {
     .countdown-el {
         text-align: center;
     }
+    .countdown-el span {
+        margin-right: 20rem;
+    }
 }
