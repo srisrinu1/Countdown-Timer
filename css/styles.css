@@ -57,7 +57,7 @@ h1 {
     }
     .big-text {
         font-weight: bold;
-        font-size: 2rem;
+        font-size: 1.2rem;
         line-height: 1;
         margin: 1rem 2rem;
         max-width: 700px;
@@ -66,6 +66,7 @@ h1 {
         text-align: center;
     }
     .countdown-el span {
-        margin-right: 20rem;
+        margin-right: 5px;
+        margin-left: 0px;
     }
 }
